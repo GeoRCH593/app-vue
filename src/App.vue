@@ -1,8 +1,8 @@
 <template>
   <!-- <Homepage /> -->
-  <!-- <Forms /> -->
+  <Forms />
   <!-- <Promos /> -->
-   <Cards />
+   <!-- <Cards /> -->
 </template>
 
 <script>
