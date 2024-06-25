@@ -1,7 +1,6 @@
 <template>
     <div class="container px-4 pt-5 my-5 " id="custom-cards">
-        <h2 class="pb-2 display-6 text-body-emphasis fw-bold">Cards version bootstrap</h2>
-    
+        <h2 class="pb-2 display-6 text-body-emphasis fw-bold">{{ titlePage }}</h2>
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://getbootstrap.com/docs/5.3/examples/features/unsplash-photo-2.jpg');">
@@ -23,7 +22,6 @@
               </div>
             </div>
           </div>
-    
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://getbootstrap.com/docs/5.3/examples/features/unsplash-photo-1.jpg');">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
@@ -44,7 +42,6 @@
               </div>
             </div>
           </div>
-    
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://getbootstrap.com/docs/5.3/examples/features/unsplash-photo-3.jpg');">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
@@ -68,10 +65,10 @@
         </div>
       </div>
 </template>
-<script>
-export default {
-    
-}
+<script setup>
+const titlePage = "Cards para App en Bootstrap";
+
+
 </script>
 <style>
     
