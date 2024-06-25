@@ -1,16 +1,20 @@
 <template>
   <!-- <Homepage /> -->
-  <Forms />
+  <!-- <Forms /> -->
+  <Promos />
 </template>
 
 <script>
 import Forms from './components/Forms.vue';
 import Homepage from './components/Homepage.vue';
+import Promos from './components/Promos.vue'
 
 export default {
   components: { 
     Homepage,
-    Forms
+    Forms,
+    Promos
+    
   }
 }
 </script>
