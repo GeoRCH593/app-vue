@@ -28,9 +28,13 @@ nav a {
   color: #ffffff;
   text-decoration: none;
   margin: 0 20px;
+  transition: .5s;
 }
 
+nav a:hover{
+  color: yellow;
+}
 nav a.router-link-exact-active {
-  color: lightskyblue;
+  color: yellow;
 }
 </style>
