@@ -1,13 +1,16 @@
 <template>
-  <Homepage />
+  <!-- <Homepage /> -->
+  <Forms />
 </template>
 
 <script>
+import Forms from './components/Forms.vue';
 import Homepage from './components/Homepage.vue';
 
 export default {
   components: { 
-    Homepage
+    Homepage,
+    Forms
   }
 }
 </script>
