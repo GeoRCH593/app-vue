@@ -2,17 +2,21 @@
     <div class="container py-4 justify-content-center">
       <div class="p-5 mb-4 bg-body-tertiary rounded-3">
         <div class="container-fluid py-5 ">
-          <h1 class="display-5 text-body-emphasis fw-bold">Acerca de la app</h1>
+          <h1 class="display-6 text-body-emphasis fw-bold">Acerca de la app</h1>
           <p class="col-md-12 fs-4 ">Utilizando una serie de utilidades, puedes crear este ejemplo de pagina para Vue.js como parte de un componente con nombre de AboutView.vue, como parte de una actividad para la maestria.</p>
           <button class="btn btn-primary btn-lg" type="button">Conocer más</button>
         </div>
       </div>
     </div>
-
+<Suscription />
 </template>
 <script>
+import Suscription from '../components/Suscription'
+
 export default {
-  
+  components : {
+    Suscription,
+  }
 }
 </script>
 <style>

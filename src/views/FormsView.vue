@@ -3,7 +3,7 @@
         <main>
           <div class="py-5 text-center">
             <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-            <h2 class="display-5 text-body-emphasis fw-bold">Formulario para un Compra</h2>
+            <h2 class="display-6 text-body-emphasis fw-bold">Formulario para un Compra</h2>
             <p class="lead">A continuación se muestra un formulario de ejemplo construido enteramente con los controles de formulario de Bootstrap. Cada grupo de formularios requeridos tiene un estado de validación que puede activarse al intentar enviar el formulario sin completarlo.</p>
           </div>
       

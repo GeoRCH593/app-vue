@@ -1,6 +1,6 @@
 <template>
     <div class="container px-4 pt-5 my-5 " id="custom-cards">
-        <h2 class="pb-2 display-5 text-body-emphasis fw-bold">Cards version bootstrap</h2>
+        <h2 class="pb-2 display-6 text-body-emphasis fw-bold">Cards version bootstrap</h2>
     
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <div class="col">

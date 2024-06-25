@@ -1,8 +1,8 @@
 <template>
     <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
         <div class="col-md-6 p-lg-5 mx-auto my-5">
-          <h1 class="display-4 text-body-emphasis fw-bold">Diseñado con Bootstrap</h1>
-          <h3 class="fw-normal text-muted mb-3">Construye lo que quieras con Aperture</h3>
+          <h1 class="display-6 text-body-emphasis fw-bold">Diseñado con Bootstrap</h1>
+          <h4 class="fw-normal text-muted mb-3">Construye lo que quieras con Aperture</h4>
           <div class="d-flex gap-3 justify-content-center lead fw-normal">
             <a class="icon-link" href="#">
               Aprende más

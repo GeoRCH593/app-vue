@@ -1,6 +1,6 @@
 <template>
   <div class="px-4 pt-5 my-5 text-center border-bottom">
-    <h1 class="display-4 fw-bold text-body-emphasis">Bienvenidos App grupal</h1>
+    <h1 class="display-5 fw-bold text-body-emphasis">Bienvenidos App grupal</h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4 pt-3 pb-5">En esta actividad grupal, nos sumergiremos en el emocionante mundo del desarrollo frontend utilizando Vue.js. Vue.js es un framework progresivo que nos permite construir interfaces de usuario de manera eficiente y modular.</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
