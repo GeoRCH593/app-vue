@@ -1,27 +1,33 @@
 <template>
-  <!-- <Homepage /> -->
-  <Forms />
-  <!-- <Promos /> -->
-   <!-- <Cards /> -->
+  <nav>
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link>
+  </nav>
+  <router-view/>
 </template>
 
-<script>
-import Forms from './components/Forms.vue';
-import Homepage from './components/Homepage.vue';
-import Promos from './components/Promos.vue'
-import Cards from './components/Cards.vue'
-
-export default {
-  components: { 
-    Homepage,
-    Forms,
-    Promos,
-    Cards
-    
-  }
-}
-</script>
-
 <style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
 
+nav {
+  padding: 30px;
+  background-color: darkblue;
+}
+
+nav a {
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+nav a.router-link-exact-active {
+  color: lightskyblue;
+}
 </style>
